@@ -18,7 +18,7 @@ public class AccountMapRepository implements AccountRepository{
 		this.accountMap = accountMap;
 	}
 
-	private JSONUtil util;
+	private JSONUtil util = new JSONUtil();
 	//You must provide concrete implementation for each of these methods
 	//do not change the method signature
 
